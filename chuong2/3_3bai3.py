@@ -1,6 +1,5 @@
 import time
 
-# Get current year
 x = time.localtime()
 current_year = x[0]
 
