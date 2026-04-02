@@ -1,0 +1,5 @@
+Dòng 1: Xin chào, đây là file test.
+Dòng 2: Python là một ngôn ngữ rất mạnh mẽ.
+Dòng 3: Chúng ta đang học cách đọc file theo từng dòng.
+Dòng 4: Bạn có thể nhập n = 2 để chỉ đọc hai dòng đầu này.
+Dòng 5: Chúc bạn học tốt!

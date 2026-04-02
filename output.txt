@@ -1,0 +1,2 @@
+Chào mừng bạn đến với lập trình Python!
+Đây là dòng thứ hai.
