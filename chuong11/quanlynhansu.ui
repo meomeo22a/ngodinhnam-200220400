@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Quản Lý Nhân Sự - SQLite</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text"><string>Số CCCD:</string></property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="txtCCCD"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text"><string>Họ và tên:</string></property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="txtHoTen"/>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_3">
+        <property name="text"><string>Ngày sinh:</string></property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QLineEdit" name="txtNgaySinh"/>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_4">
+        <property name="text"><string>Giới tính:</string></property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="txtGioiTinh"/>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text"><string>Địa chỉ:</string></property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QLineEdit" name="txtDiaChi"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="btnThem">
+        <property name="text"><string>Thêm mới</string></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnSua">
+        <property name="text"><string>Sửa thông tin</string></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnXoa">
+        <property name="text"><string>Xóa nhân sự</string></property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnTim">
+        <property name="text"><string>Tìm kiếm</string></property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTableWidget" name="tableNhanSu">
+      <property name="columnCount">
+       <number>5</number>
+      </property>
+      <column>
+       <property name="text"><string>CCCD</string></property>
+      </column>
+      <column>
+       <property name="text"><string>Họ Tên</string></property>
+      </column>
+      <column>
+       <property name="text"><string>Ngày Sinh</string></property>
+      </column>
+      <column>
+       <property name="text"><string>Giới Tính</string></property>
+      </column>
+      <column>
+       <property name="text"><string>Địa Chỉ</string></property>
+      </column>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
